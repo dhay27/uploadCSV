@@ -1,4 +1,4 @@
-# Proyecto  de acortador de URLs
+# Prueba de desarrollo para cargar un archivo csv  
 
 Este es un proyecto de prueba creado con el framework CodeIgniter.
 
@@ -7,6 +7,7 @@ Requisitos:
 - MAMP O XAMPP segun tu sistema operativo
 - Visual Studio Code
 - Composer (opcional, para gestionar dependencias)
+- Base de datos SQlite
 
 ## Instalación
 
