@@ -18,6 +18,9 @@
             <a class="navbar-brand">Datos</a>
         </div>
     </nav>
+    <?php if (isset($mensaje)): ?>
+    <p><?php $mensaje ?></p>
+    <?php endif; ?>
     <br>
     <form action="<?php echo base_url('nuevo') ?>" method="post">
         <button class="btn btn-primary" type="submit">Nuevo</button>

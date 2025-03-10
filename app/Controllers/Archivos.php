@@ -115,7 +115,7 @@ class Archivos extends BaseController
         $model = new ArchivosCVS();
         $model->delete($id);
 
-        return redirect()->to('/upload')->with('mensaje', 'Dato Eliminado');
+        return redirect()->to('/visualizar')->with('mensaje', 'Dato Eliminado');
     }
     
     public function visualizar()
