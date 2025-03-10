@@ -5,7 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Archivos::index');
 $routes->get('upload', 'Archivos::index');
 $routes->post('upload', 'Archivos::upload');
 $routes->get('visualizar', 'Archivos::visualizar');
